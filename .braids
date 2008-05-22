@@ -6,10 +6,3 @@ vendor/plugins/attachment_fu:
   branch: master
   squash: true
   remote: git://github.com/technoweenie/attachment_fu.git
-vendor/plugins/vendor/plugins/rspec_on_rails: 
-  local_branch: braid/git/vendor/plugins/vendor/plugins/rspec-on-rails/master
-  type: git
-  revision: 
-  branch: master
-  squash: true
-  remote: git://github.com/dchelimsky/rspec-rails.git
