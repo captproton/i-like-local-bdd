@@ -3,3 +3,5 @@ db/schema.rb
 .DS_Store
 vendor/rails
 tmp/
+db/*.rb
+db/*sqlite3
