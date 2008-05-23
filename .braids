@@ -13,6 +13,13 @@ vendor/plugins/attachment_fu:
   branch: master
   squash: true
   remote: git://github.com/technoweenie/attachment_fu.git
+vendor/plugins/spider_test: 
+  local_branch: braid/git/vendor/plugins/spider-test/master
+  type: git
+  revision: 
+  branch: master
+  squash: true
+  remote: git://github.com/courtenay/spider_test.git
 vendor/plugins/exception_notification: 
   local_branch: braid/git/vendor/plugins/exception-notification/master
   type: git
