@@ -1,18 +1,4 @@
 --- 
-vendor/plugins/annotate_models: 
-  local_branch: braid/git/vendor/plugins/annotate-models/master
-  type: git
-  revision: 
-  branch: master
-  squash: true
-  remote: git://github.com/ctran/annotate_models.git
-vendor/plugins/restful-authentication: 
-  local_branch: braid/git/vendor/plugins/restful-authentication/master
-  type: git
-  revision: 
-  branch: master
-  squash: true
-  remote: git://github.com/technoweenie/restful-authentication.git
 vendor/plugins/rspec-rails: 
   local_branch: braid/git/vendor/plugins/rspec-rails/master
   type: git
@@ -20,6 +6,20 @@ vendor/plugins/rspec-rails:
   branch: master
   squash: true
   remote: git://github.com/dchelimsky/rspec-rails.git
+vendor/plugins/restful-authentication: 
+  local_branch: braid/git/vendor/plugins/restful-authentication/master
+  type: git
+  revision: 
+  branch: master
+  squash: true
+  remote: git://github.com/technoweenie/restful-authentication.git
+vendor/plugins/annotate_models: 
+  local_branch: braid/git/vendor/plugins/annotate-models/master
+  type: git
+  revision: 
+  branch: master
+  squash: true
+  remote: git://github.com/ctran/annotate_models.git
 vendor/plugins/attachment_fu: 
   local_branch: braid/git/vendor/plugins/attachment-fu/master
   type: git
@@ -48,6 +48,13 @@ vendor/plugins/exception_notification:
   branch: master
   squash: true
   remote: git://github.com/veilleperso/exception_notification.git
+vendor/plugins/will_paginate: 
+  local_branch: braid/git/vendor/plugins/will-paginate/master
+  type: git
+  revision: 
+  branch: master
+  squash: true
+  remote: git://github.com/mislav/will_paginate.git
 vendor/plugins/geokit: 
   local_branch: braid/git/vendor/plugins/geokit/master
   type: git
