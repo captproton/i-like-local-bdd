@@ -27,3 +27,10 @@ vendor/plugins/exception_notification:
   branch: master
   squash: true
   remote: git://github.com/veilleperso/exception_notification.git
+vendor/plugins/geokit: 
+  local_branch: braid/git/vendor/plugins/geokit/master
+  type: git
+  revision: 
+  branch: master
+  squash: true
+  remote: git://github.com/ptb/geokit.git
