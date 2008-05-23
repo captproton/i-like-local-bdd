@@ -13,3 +13,10 @@ vendor/plugins/attachment_fu:
   branch: master
   squash: true
   remote: git://github.com/technoweenie/attachment_fu.git
+vendor/plugins/exception_notification: 
+  local_branch: braid/git/vendor/plugins/exception-notification/master
+  type: git
+  revision: 
+  branch: master
+  squash: true
+  remote: git://github.com/veilleperso/exception_notification.git
