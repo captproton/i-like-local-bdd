@@ -1,18 +1,4 @@
 --- 
-vendor/plugins/rspec-rails: 
-  local_branch: braid/git/vendor/plugins/rspec-rails/master
-  type: git
-  revision: 
-  branch: master
-  squash: true
-  remote: git://github.com/dchelimsky/rspec-rails.git
-vendor/plugins/restful-authentication: 
-  local_branch: braid/git/vendor/plugins/restful-authentication/master
-  type: git
-  revision: 
-  branch: master
-  squash: true
-  remote: git://github.com/technoweenie/restful-authentication.git
 vendor/plugins/annotate_models: 
   local_branch: braid/git/vendor/plugins/annotate-models/master
   type: git
@@ -20,6 +6,20 @@ vendor/plugins/annotate_models:
   branch: master
   squash: true
   remote: git://github.com/ctran/annotate_models.git
+vendor/plugins/restful-authentication: 
+  local_branch: braid/git/vendor/plugins/restful-authentication/master
+  type: git
+  revision: 
+  branch: master
+  squash: true
+  remote: git://github.com/technoweenie/restful-authentication.git
+vendor/plugins/rspec-rails: 
+  local_branch: braid/git/vendor/plugins/rspec-rails/master
+  type: git
+  revision: 
+  branch: master
+  squash: true
+  remote: git://github.com/dchelimsky/rspec-rails.git
 vendor/plugins/attachment_fu: 
   local_branch: braid/git/vendor/plugins/attachment-fu/master
   type: git
@@ -34,6 +34,13 @@ vendor/plugins/spider_test:
   branch: master
   squash: true
   remote: git://github.com/courtenay/spider_test.git
+vendor/plugins/tz_time: 
+  local_branch: braid/git/vendor/plugins/tz-time/master
+  type: git
+  revision: 
+  branch: master
+  squash: true
+  remote: git://github.com/jonleighton/tz_time.git
 vendor/plugins/actsasferret: 
   local_branch: braid/git/vendor/plugins/actsasferret/master
   type: git
